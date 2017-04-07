@@ -10,6 +10,20 @@ SCSS / CSS 使用
 	font-size: 50px;
 }
 
+.page-title__red {
+	font-size: 50px;
+	color: red;
+}
+
+```
+
+```js
+function() {
+	var red,
+		green;
+}
+
+
 ```
 
 ### ...
