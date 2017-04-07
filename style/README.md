@@ -7,7 +7,7 @@ SCSS / CSS 使用
 ```scss
 
 .classname {
-	...
+	font-size: 50px;
 }
 
 ```
