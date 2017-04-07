@@ -19,8 +19,8 @@ SCSS / CSS 使用
 
 ```js
 function() {
-	var red,
-	green;
+	var red = "#ff0000",
+	green = "#00ffff";
 }
 
 
