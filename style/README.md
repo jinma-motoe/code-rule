@@ -20,7 +20,7 @@ SCSS / CSS 使用
 ```js
 function() {
 	var red,
-		green;
+	green;
 }
 
 
