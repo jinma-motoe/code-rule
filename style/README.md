@@ -71,19 +71,24 @@ SCSS / CSS 使用
 ```
 ### sass設計理論
 
-base.scss
-_color.scss
+#### フォルダ構造
 
-utill.scss
-_mixin.scss
-便利ツール
+```
+base.scss
+  _color.scss
+
+utill.scss  # 便利ツール
+  _mixin.scss
 
 component.scss
-header
-footer
-container
-.hero
 
+  header
+  footer
+  container
+  .hero
+  ...
+  
+```
 
 
 
