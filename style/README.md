@@ -7,12 +7,12 @@ SCSS / CSS 使用
 ```scss
 
 .classname {
-	font-size: 50px;
+    font-size: 50px;
 }
 
 .page-title__red {
-	font-size: 50px;
-	color: red;
+    font-size: 50px;
+    color: red;
 }
 
 ```
@@ -24,11 +24,11 @@ SCSS / CSS 使用
 
 ```html
 <div class="hero">
-	<ul class="hero__slider">
-		<li class="hero__list"></li>
-		<li class="hero__list"></li>
-		<li class="hero__list"></li>
-	</ul>
+    <ul class="hero__slider">
+        <li class="hero__list"></li>
+        <li class="hero__list"></li>
+        <li class="hero__list"></li>
+    </ul>
 </div>
 ```
 
@@ -36,28 +36,36 @@ SCSS / CSS 使用
 
 ```html
 <header class="side-nav">
-	<ul class="side-nav__list">
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-	</ul>
+    <ul class="side-nav__list">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
 </header>
 ```
 ```sass
 .side-nav {
-	&__list {
-		li {
-		}
-		a {
-		}
-		figure {
-		}
-		p {
-		}
+    &__list {
+    
+        li {
+	    ...
 	}
+	
+        a {
+	    ...
+	}
+	
+	figure {
+	    ...
+	}
+	
+	p {
+	    ...
+	}
+    }
 }
 
 ```
