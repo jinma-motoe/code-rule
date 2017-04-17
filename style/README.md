@@ -1,8 +1,28 @@
-# CSS Rule
+# WS KANAZAWA コーディングルール
 
-SCSS / CSS 使用
+命名規則はBEMに遵守
 
-### クラス名のルール
+```html
+
+block
+block__element
+block__element--modifier
+block--modifier
+block--modifier__element
+
+```
+
+```html
+
+<div class="block">
+<div class="block__element"></div>
+<div class="block__element--modifier"></div>
+</div>
+<div class="block--modifier">
+<div class="block--modifier__element"></div>
+</div>
+
+```
 
 ```scss
 
@@ -20,7 +40,6 @@ SCSS / CSS 使用
 		width: 50%;
 	}
 }
-
 
 ```
 # マークアップルール beta版
