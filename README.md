@@ -3,5 +3,3 @@
 そのルールを下記に記述します。
 
 ## [スタイルのルールに関して](/style/README.md)
-
-### [h3](/style/README.md)

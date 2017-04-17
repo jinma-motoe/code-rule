@@ -7,20 +7,43 @@ SCSS / CSS 使用
 ```scss
 
 .classname {
-    font-size: 50px;
+	&__title {
+		font-size: 24px;
+		font-wight: bold;
+	}
+	&__ul {
+		font-size: 0;
+		letter-spacing: 0;
+	}
+	&__li {
+		display: inline-block;
+		width: 50%;
+	}
 }
 
-.page-title__red {
-    font-size: 50px;
-    color: red;
-}
 
 ```
 # マークアップルール beta版
 
+
+### 仮メモ
+
+```html
+<ul class="side-nav__list--small">
+```
+そのものを装飾するときは--small
+
+```html
+<ul class="side-nav__list__small">
+```
+その子供を装飾するときは__small
+
+
+
 ### タブ幅は4スペ
 
 ### ファーストビューのclass名は"hero"
+
 
 ```html
 <div class="hero">
@@ -36,6 +59,7 @@ SCSS / CSS 使用
 
 ```html
 <header class="side-nav">
+<<<<<<< Updated upstream
     <ul class="side-nav__list">
         <li></li>
         <li></li>
@@ -44,6 +68,16 @@ SCSS / CSS 使用
         <li></li>
         <li></li>
     </ul>
+=======
+	<ul class="side-nav__list">
+		<li>
+			<a>
+				<figure></figure>
+				<p></p>
+			</a>
+		</li>
+	</ul>
+>>>>>>> Stashed changes
 </header>
 ```
 ```sass
@@ -67,10 +101,11 @@ SCSS / CSS 使用
 	}
     }
 }
-
 ```
+
 ### sass設計理論
 
+<<<<<<< Updated upstream
 #### フォルダ構造
 
 ```
@@ -90,6 +125,22 @@ component.scss
   
 ```
 
+=======
+
+
+style.scss
+header
+footer
+container
+.hero
+
+@import
+base.scss
+_color.scss
+utill.scss
+_mixin.scss
+便利ツール
+>>>>>>> Stashed changes
 
 
 ### ...
