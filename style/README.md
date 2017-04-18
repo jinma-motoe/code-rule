@@ -1,18 +1,19 @@
 # WS KANAZAWA コーディングルール
 
-## 命名規則はBEMに遵守
+
+命名規則はBEMに遵守
 
 ```html
 
 block
+block--modifier
 block__element
 block__element--modifier
-block--modifier
-block--modifier__element
 
 ```
 
 ```html
+//html
 
 <div class="block">
 	<div class="block__element"></div>
@@ -25,6 +26,7 @@ block--modifier__element
 ```
 
 ```scss
+//sass
 
 .block {
 	&--modifier {
